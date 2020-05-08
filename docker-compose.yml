@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   database:
-    image: postgres:12.1
+    image: postgres
     volumes:
       - db_data:/var/lib/postgresql/data
   web:
